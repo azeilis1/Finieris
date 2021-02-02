@@ -1,7 +1,7 @@
-body{
+body {
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
-  background:orange
+  background-color:orange
 }
 
 ul li {
@@ -9,4 +9,17 @@ ul li {
   position: relative;
   float: left;
 }
+
+ul li ul {
+  display: none;
+}
+
+ul li a {
+  display: block;
+  padding: 20px 45px;
+  background-color: white;
+}
+
+
+
 
